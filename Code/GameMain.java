@@ -6,9 +6,9 @@ import javax.swing.*;
 @SuppressWarnings("serial")
 public class GameMain extends JPanel {
  // Named-constants for the game board
- public static final int ROWS = 4; // ROWS by COLS cells
- public static final int COLS = 4;
-public static final String TITLE = "Tic Tac Toe Andika";
+ public static final int ROWS = 3; // ROWS by COLS cells
+ public static final int COLS = 3;
+public static final String TITLE = "Tic Tac Toe";
  // Name-constants for the various dimensions used for graphics drawing
  public static final int CELL_SIZE = 120; // cell width and height (square)
  public static final int CANVAS_WIDTH = CELL_SIZE * COLS; // the drawing canvas
